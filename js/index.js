@@ -7,7 +7,7 @@ function getProducts() {
                 <div class="product">
                    <h2>${product.title}</h2>
                    <img src="${product.thumbnail}" alt="${product.title}"/>
-                   <a href="../html/details.html?id=${product.id}">View Product</a>
+                   <a href="./html/details.html?id=${product.id}">View Product</a>
                 </div>
                 `;
             }).join("");
